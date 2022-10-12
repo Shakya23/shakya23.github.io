@@ -13,7 +13,26 @@ section{
 article{
     border: 1px solid pink;
 }
-.gallery [
+.gallery {
     display: flex;
     flex-wrap: wrap;
-]
+}
+article img{
+    width: 100%;
+}
+.gallery article {
+    flex: 25%;
+}
+.featured {
+    display: flex;
+}
+
+.featured article {
+    flex: 1;
+}
+.featured .featured-article {
+    flex: 2;
+}
+.featured .middle {
+    flex: 400px;
+}
