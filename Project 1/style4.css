@@ -1,0 +1,27 @@
+@font-face {
+    font-family: gs;
+    src: url(fonts/GILLSANS.ttf);
+}
+
+body{
+    margin: 5px;
+    text-align: center;
+}
+#LOGO {
+    height:100px;
+    width:250px;
+    position:absolute;
+    left:600px;
+    right:50px;
+    top:-10px;
+}
+
+h1:after {
+    display:block;
+    content: '';
+    position: relative;
+    border: 1px solid black;
+    margin-left:-20px;
+    margin-right: -20px;
+    margin-top: 75px;
+}

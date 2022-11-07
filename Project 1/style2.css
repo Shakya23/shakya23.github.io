@@ -1,0 +1,108 @@
+@font-face {
+    font-family: gs;
+    src: url(fonts/GILLSANS.ttf);
+}
+
+body{
+    margin: 5px;
+    text-align: center;
+}
+#LOGO {
+    height:100px;
+    width:250px;
+    position:absolute;
+    left:10px;
+    right:50px;
+    top:-10px;
+}
+
+h1:after {
+    display:block;
+    content: '';
+    position: relative;
+    border: 1px solid black;
+    margin-left:-20px;
+    margin-right: -20px;
+    margin-top: 75px;
+}
+
+#CLOTHINGA {
+    height:665px;
+    width:330px;
+    position:absolute;
+    left:-0px;
+    right:50px;
+    top:77px;
+}
+
+#C1 {
+    height:280px;
+    width:250px;
+    position:absolute;
+    left:375px;
+    right:50px;
+    top:120px;
+}
+
+#C2 {
+    height:280px;
+    width:250px;
+    position:absolute;
+    left:670px;
+    right:50px;
+    top:120px;
+}
+
+#C3 {
+    height:280px;
+    width:250px;
+    position:absolute;
+    left:670px;
+    right:50px;
+    top:430px;
+}
+
+#C4 {
+    height:280px;
+    width:250px;
+    position:absolute;
+    left:961px;
+    right:50px;
+    top:430px;
+}
+
+#BUTTON1 {
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:850px;
+    right:50px;
+    top:10px;
+}
+
+#BUTTON2 {
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:1000px;
+    right:50px;
+    top:10px;
+}
+
+#BUTTON3 {
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:1122px;
+    right:50px;
+    top:10px;
+}
+
+#BUTTON4 {
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:1270px;
+    right:50px;
+    top:10px;
+}
