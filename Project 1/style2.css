@@ -53,6 +53,24 @@ h1:after {
     top:120px;
 }
 
+#P1 {
+    height:280px;
+    width:400px;
+    position:absolute;
+    left:950px;
+    right:10px;
+    top:120px;
+}
+
+#P2 {
+    height:310px;
+    width:280px;
+    position:absolute;
+    left:358px;
+    right:10px;
+    top:420px;
+}
+
 #C3 {
     height:280px;
     width:250px;
