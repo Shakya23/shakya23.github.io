@@ -1,22 +1,46 @@
 body {
     overflow-x: hidden; /* Hide Horizontal Scrollbar */
     position: absolute;
-    background-image: url('images/background.png');
-    background-repeat: none;
-    background-attachment: fixed;
+    background-color: black;
+
 }
 
-#background {
-    height: 830px;
-    width: 2000px;
+#home {
+    height: 1000px;
+    width: 1750px;
     position: fixed;
     left: -180px;
-    top: -105px;
+    top: -140px;
 }
+
 #intro {
-    height: 830px;
-    width: 1655px;
+    height: 120px;
+    width: 1200px;
     position: absolute;
-    left: -120px;
-    top: -10px;
+    left: 130px;
+    top: 790px;
+}
+
+#element {
+    height: 650px;
+    width: 1420px;
+    position: absolute;
+    left: 0px;
+    top: 910px;
+}
+
+#new {
+    height: 160px;
+    width: 800px;
+    position: absolute;
+    left: 300px;
+    top: 1550px;
+}
+
+#car1 {
+    height: 830px;
+    width: 1750px;
+    position: absolute;
+    left: -180px;
+    top: 1720px;
 }
