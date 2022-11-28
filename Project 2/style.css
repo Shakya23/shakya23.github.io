@@ -1,0 +1,22 @@
+body {
+    overflow-x: hidden; /* Hide Horizontal Scrollbar */
+    position: absolute;
+    background-image: url('images/background.png');
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+#background {
+    height: 830px;
+    width: 2000px;
+    position: fixed;
+    left: -180px;
+    top: -105px;
+}
+#intro {
+    height: 830px;
+    width: 1655px;
+    position: absolute;
+    left: -120px;
+    top: -10px;
+}
