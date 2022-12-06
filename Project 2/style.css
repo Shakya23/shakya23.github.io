@@ -1,46 +1,97 @@
+* {box-sizing:border-box;}
+
+
 body {
-    overflow-x: hidden; /* Hide Horizontal Scrollbar */
-    position: absolute;
     background-color: black;
-
+    overflow-x: hidden;
+    position: sticky;
 }
 
-#home {
-    height: 1000px;
-    width: 1750px;
-    position: fixed;
-    left: -180px;
-    top: -140px;
+img {
+    width:100vw;
 }
 
-#intro {
-    height: 120px;
-    width: 1200px;
+section {
+    width: 100vw;
+    height:auto;
+}
+
+.home {
+    padding:100px;
+}
+
+.ad {
+    width: 100wv; 
     position: absolute;
-    left: 130px;
-    top: 790px;
-}
-
-#element {
-    height: 650px;
-    width: 1420px;
-    position: absolute;
+    object-fit: contain;
+    object-fit: cover;
     left: 0px;
-    top: 910px;
+    top: 1090px;
 }
 
-#new {
-    height: 160px;
-    width: 800px;
-    position: absolute;
-    left: 300px;
-    top: 1550px;
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index:-1;
 }
 
-#car1 {
-    height: 830px;
-    width: 1750px;
+.porsche {
+    width: 100vw; 
     position: absolute;
-    left: -180px;
-    top: 1720px;
+    object-fit: contain;
+    left: 0px;
+    top: 300px;
+}
+
+.car1 {
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 1700px;
+}
+
+
+.element {
+    width: 100wv; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 400px;
+}
+
+
+.right {
+    height: 20px; 
+    width: 100wv; 
+    position: absolute;
+    object-fit: contain;
+    left: 350px;
+    top: 430px;
+}
+
+.left {
+    height: 20px; 
+    width: 100wv; 
+    position: absolute;
+    object-fit: contain;
+    left: -350px;
+    top: 430px;
+}
+
+.new { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 1070px;
+}
+.new2 { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 1660px;
 }
