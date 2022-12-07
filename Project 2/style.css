@@ -19,9 +19,16 @@ section {
 .home {
     padding:100px;
 }
+.element {
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 400px;
+}
 
 .ad {
-    width: 100wv; 
+    width: 100vw; 
     position: absolute;
     object-fit: contain;
     object-fit: cover;
@@ -53,15 +60,13 @@ img.sticky {
     top: 1700px;
 }
 
-
-.element {
-    width: 100wv; 
+.car2 {
+    width: 100vw; 
     position: absolute;
     object-fit: contain;
     left: 0px;
-    top: 400px;
+    top: 2390px;
 }
-
 
 .right {
     height: 20px; 
@@ -85,13 +90,111 @@ img.sticky {
     width: 100vw; 
     position: absolute;
     object-fit: contain;
+    object-fit: scale-down;
     left: 0px;
     top: 1070px;
 }
+
 .new2 { 
     width: 100vw; 
     position: absolute;
     object-fit: contain;
     left: 0px;
     top: 1660px;
+}
+
+.line { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 1785px;
+}
+
+.car3 {
+    height:auto;
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 3200px;
+}
+
+.car33 {
+    height:auto;
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 720px;
+    top: 3200px;
+}
+
+.car4 { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 4090px;
+}
+
+.car5 { 
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 4900px;
+}
+
+.car55 { 
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 720px;
+    top: 4900px;
+}
+
+.car6 { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 5600px;
+}
+.car77 { 
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 6400px;
+}
+
+.car7 { 
+    width: 760px; 
+    position: absolute;
+    object-fit: contain;
+    left: 720px;
+    top: 6400px;
+}
+
+.line2 { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 7410px;
+}
+.ele { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 7510px;
+}
+
+.line3 { 
+    width: 100vw; 
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 8170px;
 }
