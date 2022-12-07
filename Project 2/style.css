@@ -1,39 +1,40 @@
-* {box-sizing:border-box;}
-
+* {
+  box-sizing: border-box;
+}
 
 body {
-    background-color: black;
-    overflow-x: hidden;
-    position: sticky;
+  background-color: black;
+  overflow-x: hidden;
+  position: sticky;
 }
 
 img {
-    width:100vw;
+  width: 100vw;
 }
 
 section {
-    width: 100vw;
-    height:auto;
+  width: 100vw;
+  height: auto;
 }
 
 .home {
-    padding:100px;
+  padding: 100px;
 }
 .element {
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 400px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 400px;
 }
 
 .ad {
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    object-fit: cover;
-    left: 0px;
-    top: 1090px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  object-fit: cover;
+  left: 0px;
+  top: 1090px;
 }
 
 img.sticky {
@@ -41,160 +42,186 @@ img.sticky {
   position: sticky;
   top: 0;
   width: 100vw;
-  z-index:-1;
+  z-index: -1;
 }
 
 .porsche {
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 300px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 300px;
 }
 
 .car1 {
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 1700px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 1700px;
 }
 
 .car2 {
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 2390px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 2390px;
 }
 
 .right {
-    height: 20px; 
-    width: 100wv; 
-    position: absolute;
-    object-fit: contain;
-    left: 350px;
-    top: 430px;
+  height: 20px;
+  width: 100wv;
+  position: absolute;
+  object-fit: contain;
+  left: 350px;
+  top: 430px;
 }
 
 .left {
-    height: 20px; 
-    width: 100wv; 
-    position: absolute;
-    object-fit: contain;
-    left: -350px;
-    top: 430px;
+  height: 20px;
+  width: 100wv;
+  position: absolute;
+  object-fit: contain;
+  left: -350px;
+  top: 430px;
 }
 
-.new { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    object-fit: scale-down;
-    left: 0px;
-    top: 1070px;
+.new {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  object-fit: scale-down;
+  left: 0px;
+  top: 1070px;
 }
 
-.new2 { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 1660px;
+.new2 {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 1660px;
 }
 
-.line { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 1785px;
+.line {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 1785px;
 }
 
 .car3 {
-    height:auto;
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 3200px;
+  height: auto;
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 3200px;
 }
 
 .car33 {
-    height:auto;
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 720px;
-    top: 3200px;
+  height: auto;
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 720px;
+  top: 3200px;
 }
 
-.car4 { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 4090px;
+.car4 {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 4090px;
 }
 
-.car5 { 
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 4900px;
+.car5 {
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 4900px;
 }
 
-.car55 { 
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 720px;
-    top: 4900px;
+.car55 {
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 720px;
+  top: 4900px;
 }
 
-.car6 { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 5600px;
+.car6 {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 5600px;
 }
-.car77 { 
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 6400px;
-}
-
-.car7 { 
-    width: 760px; 
-    position: absolute;
-    object-fit: contain;
-    left: 720px;
-    top: 6400px;
+.car77 {
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 6400px;
 }
 
-.line2 { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 7410px;
-}
-.ele { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 7510px;
+.car7 {
+  width: 760px;
+  position: absolute;
+  object-fit: contain;
+  left: 720px;
+  top: 6400px;
 }
 
-.line3 { 
-    width: 100vw; 
-    position: absolute;
-    object-fit: contain;
-    left: 0px;
-    top: 8170px;
+.line2 {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 7410px;
+}
+.ele {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 7510px;
+}
+
+.line3 {
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 8170px;
+}
+
+@media screen and (max-width: 520px) {
+  .car1 {
+    top: 650px;
+  }
+  .car2 {
+    top: 900px;
+  }
+  .car3 {
+    top: 1150px;
+    width: 520px;
+  }
+  .car4 {
+    top: 1890px;
+  }
+  .car5 {
+    top: 2190px;
+    width: 520px;
+  }
+  .car5 {
+    top: 2930px;
+  }
+  .car55 {
+    display: none;
+  }
 }
