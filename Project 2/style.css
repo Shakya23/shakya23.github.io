@@ -201,11 +201,37 @@ img.sticky {
 }
 
 @media screen and (max-width: 520px) {
+  .ad {
+    width: 520px;
+    top: 658px;
+  }
+  .porsche {
+    width: 100vw;
+    top: 280px;
+  }
+  .left {
+    width: 100vw;
+    top: 340px;
+  }
+  .right {
+    width: 100vw;
+    top: 340px;
+  }
+  .new {
+    width: 520px;
+    top: 645px;
+  }
+  .new2 {
+    width: 520px;
+    top: 820px;
+  }
   .car1 {
-    top: 650px;
+    top: 900px;
+    width: 520px;
   }
   .car2 {
     top: 900px;
+    width: 520px;
   }
   .car3 {
     top: 1150px;
@@ -213,15 +239,35 @@ img.sticky {
   }
   .car4 {
     top: 1890px;
-  }
-  .car5 {
-    top: 2190px;
     width: 520px;
   }
   .car5 {
-    top: 2930px;
+    top: 2180px;
+    width: 520px;
+  }
+  .car6 {
+    top: 2910px;
+    width: 520px;
+  }
+  .car1 {
+    top: 3203px;
+    width: 520px;
   }
   .car55 {
-    display: none;
+    top: 3600px;
+    width: 520px;
+  }
+  .car77 {
+    top: 3495px;
+    width: 520px;
+  }
+  .line2 {
+    top: 4500px;
+  }
+  .ele {
+    top: 4260px;
+  }
+  .line3 {
+    top: 4220px;
   }
 }
